@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Ph.D. student in Mathematics at ENS and Aix-Marseille Université
+subtitle: Ph.D. student in Mathematics at <a href="https://www.ens.psl.eu/">ENS</a> and Aix-Marseille Université
 
 profile:
   align: right
