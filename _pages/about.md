@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. student at [ENS](https://www.ens.psl.eu/) and [Aix-Marseille Université](https://www.univ-amu.fr/)
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>INRIA Paris, Office C321 </p>
-    <p>2 rue Simone IFF </p>
+    <p>2 rue Simone Iff </p>
     <p>Paris, 75012</p>
 
 news: false  # includes a list of news items
