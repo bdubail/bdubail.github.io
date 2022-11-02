@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Ph.D. student in Mathematics at <a href="https://www.inria.fr/fr/centre-inria-de-paris">INRIA Paris</a>
+subtitle: Ph.D. student in Mathematics at <a href="https://www.inria.fr/fr/centre-inria-de-paris">INRIA</a>
 
 profile:
   align: right
