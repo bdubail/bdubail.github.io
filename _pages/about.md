@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Ph.D. student in Mathematics at <a href="https://www.inria.fr/fr/centre-inria-de-paris">INRIA</a>
+subtitle: Ph.D. student in Mathematics
 
 profile:
   align: right
@@ -18,7 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student at INRIA Paris, working under the supervision of [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/) on mixing times of Markov chains.   
+# About Me
+
+I am a third-year Ph.D. student at [ENS](https://www.ens.psl.eu/) and [Aix-Marseille Université](https://www.univ-amu.fr/), in the DYOGENE team, which is a joint team between [INRIA Paris](https://www.inria.fr/fr/centre-inria-de-paris) and ENS,  My supervisors are [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/). I am working on mixing times of Markov chains.   
 
 
-Research Interests: Probability theory, Mixing times of Markov chains, Cutoff phenomenon, Random walks on groups, Random graphs
+Research Interests: probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
