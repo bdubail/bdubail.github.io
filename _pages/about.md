@@ -23,4 +23,7 @@ social: true  # includes social icons at the bottom of the page
 I am a third-year Ph.D. student at [ENS](https://www.ens.psl.eu/) and [Aix-Marseille Université](https://www.univ-amu.fr/), in the DYOGENE team, which is a joint team between [INRIA Paris](https://www.inria.fr/fr/centre-inria-de-paris) and ENS,  My supervisors are [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/). I am working on mixing times of Markov chains.   
 
 
+Here is a short [CV](/assets/pdf/CV_english.pdf).
+
+
 Research Interests: probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
