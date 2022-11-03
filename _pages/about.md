@@ -29,9 +29,9 @@ Research Interests: probability theory, mixing times of Markov chains, cutoff ph
 ## Contact: 
 bastien[dot]dubail[at]inria[dot]fr
 
-Office C321
-INRIA
-2 rue Simone Iff
+Office C321\
+INRIA\
+2 rue Simone Iff\
 75012 Paris
 
 
