@@ -24,7 +24,7 @@ I am a third-year Ph.D. student in the [DYOGENE](https://www.di.ens.fr/dyogene/i
 
 Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 
-Research Interests: probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
+**Research Interests:** probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
 
 ## Contact: 
 bastien.dubail [at] inria.fr
