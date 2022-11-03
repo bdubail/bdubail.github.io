@@ -27,14 +27,11 @@ Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 Research Interests: probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
 
 ## Contact: 
-email address below
+bastien[dot]dubail[at]inria[dot]fr
 
 Office C321
-
 INRIA
-
 2 rue Simone Iff
-
 75012 Paris
 
 
