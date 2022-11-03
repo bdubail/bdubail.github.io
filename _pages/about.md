@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: photo.jpeg
+  image: profile_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p> Ph.D. Student in Mathematics </p>
