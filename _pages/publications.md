@@ -9,7 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-# Journals
+### Journals
 
 <div class="publications">
 
