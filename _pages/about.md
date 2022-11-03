@@ -29,6 +29,12 @@ Research Interests: probability theory, mixing times of Markov chains, cutoff ph
 ## Contact: 
 email address below
 
+Office C321
+
 INRIA
+
 2 rue Simone Iff
-75012 Paris Cedex 12
+
+75012 Paris
+
+
