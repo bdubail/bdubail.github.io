@@ -6,8 +6,8 @@ subtitle: Ph.D. student in Mathematics
 
 profile:
   align: right
-  image: 
-  image_circular: false # crops the image to make it circular
+  image: photo.jpeg
+  image_circular: true # crops the image to make it circular
   address: >
     <p>INRIA Paris, Office C321 </p>
     <p>2 rue Simone Iff </p>
