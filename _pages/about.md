@@ -22,6 +22,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am a third-year Ph.D. student in the [DYOGENE](https://www.di.ens.fr/dyogene/index.html) team at INRIA Paris and at Aix-Marseille Université, under the supervision of [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/).
 
+My research focuses on mixing times of Markov chains, notably on the so-called cutoff phenomenon, which is the abrupt convergence of a finite Markov chain to stationarity. Quite generally, I am interested in all kinds of probabilistic and statistical models, as well as stochastic processes and algorithms on graphs.
+
 Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 
 **Research Interests:** probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs
