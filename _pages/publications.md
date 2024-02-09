@@ -3,15 +3,6 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-sections:
-  - type: "ARXIV"
-    text: "Preprints"
-  - type: "JOUR"
-    text: "Journal articles"
-  - type: "@inproceedings"
-    text: "Conference and workshop papers"
-  - type: "@misc|@phdthesis|@mastersthesis"
-    text: "Thesis"
 years: [2022,2024]
 nav: true
 nav_order: 1
@@ -24,7 +15,7 @@ nav_order: 1
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[TY={{ARXIV},year={{y}}]* %}
+  {% bibliography -f preprints -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
@@ -35,7 +26,7 @@ nav_order: 1
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[TY={{JOUR}},year={{y}}]* %}
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
