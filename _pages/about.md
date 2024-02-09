@@ -30,7 +30,7 @@ Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 ## Contact: 
 bastien.dubail [at] inria.fr
 
-Office 704<br>
+Office 709<br>
 KTH<br>
 Malvinas Väg 10<br>
 114 28 Stockholm, Sweden
