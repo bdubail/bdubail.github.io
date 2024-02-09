@@ -14,8 +14,19 @@ nav_order: 1
 <div class="publications">
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f preprints -q @*[year={{y}}]* %}
+
+    {%- comment -%}  Count bibliography in actual section and year {%- endcomment -%}
+    {%- capture citecount -%}
+    {%- bibliography_count -f preprints -q @*[year={{y}}]* -%}
+    {%- endcapture -%}
+
+    {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
+    {%- if citecount !="0" %}
+
+      <h2 class="year">{{y}}</h2>
+    {% bibliography -f preprints -q @*[year={{y}}]* %}
+
+    {%- endif -%}
 {% endfor %}
 
 </div>
@@ -25,8 +36,19 @@ nav_order: 1
 <div class="publications">
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+
+    {%- comment -%}  Count bibliography in actual section and year {%- endcomment -%}
+    {%- capture citecount -%}
+    {%- bibliography_count -f papers -q @*[year={{y}}]* -%}
+    {%- endcapture -%}
+
+    {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
+    {%- if citecount !="0" %}
+
+      <h2 class="year">{{y}}</h2>
+    {% bibliography -f papers -q @*[year={{y}}]* %}
+
+    {%- endif -%}
 {% endfor %}
 
 </div>
