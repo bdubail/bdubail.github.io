@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 ## About Me
 
-I am a postdoc in the [Division of Decision and Control Systems](https://www.kth.se/is/dcs) at KTH, in the team of [Alexandre Proutière](https://people.kth.se/~alepro/). Before that, I did my PHD at INRIA Paris and Aix-Marseille Université, under the supervision of [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/).
+I am a postdoc in the School of Electrical Engineering and Computer Science (EECS) at KTH, in the team of [Alexandre Proutière](https://people.kth.se/~alepro/). Before that, I did my PHD at INRIA Paris and Aix-Marseille Université, under the supervision of [Laurent Massoulié](https://www.di.ens.fr/laurent.massoulie/) and [Charles Bordenave](http://www.i2m.univ-amu.fr/perso/charles.bordenave/).
 
 My research focuses on mixing times of Markov chains, notably on the so-called cutoff phenomenon, which is the abrupt convergence of a finite Markov chain to stationarity. Lately, I have started investigating how such concepts can be used to tackle more applied questions, notably in the field of reinforcement learning. Quite generally, I am interested in all kinds of probabilistic and statistical models, as well as stochastic processes and algorithms on graphs. 
 
