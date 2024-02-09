@@ -18,28 +18,24 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
+### Preprints
+
 <div class="publications">
 
-{%- for section in pages.sections %}
-  <a id="{{section.text}}"></a>
-  <p class="bibtitle">{{section.text}}</p>
-  {%- for y in page.years %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[TY={{ARXIV},year={{y}}]* %}
+{% endfor %}
 
-    {%- comment -%}  Count bibliography in actual section and year {%- endcomment -%}
-    {%- capture citecount -%}
-    {%- bibliography_count -f papers -q @*[TY={{section.type}},year={{y}}]* -%}
-    {%- endcapture -%}
+</div>
 
-    {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
-    {%- if citecount !="0" %}
+### Journal articles
 
-      <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[TY={{section.type}},year={{y}}]* %}
+<div class="publications">
 
-    {%- endif -%}
-
-  {%- endfor %}
-
-{%- endfor %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[TY={{JOUR}},year={{y}}]* %}
+{% endfor %}
 
 </div>
