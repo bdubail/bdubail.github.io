@@ -4,11 +4,13 @@ permalink: /publications/
 title: Publications
 description:
 sections:
-  - bibquery: "@article"
+  - type: "ARXIV"
+    text: "Preprints"
+  - type: "JOUR"
     text: "Journal articles"
-  - bibquery: "@inproceedings"
+  - type: "@inproceedings"
     text: "Conference and workshop papers"
-  - bibquery: "@misc|@phdthesis|@mastersthesis"
+  - type: "@misc|@phdthesis|@mastersthesis"
     text: "Thesis"
 years: [2022,2024]
 nav: true
@@ -18,21 +20,21 @@ nav_order: 1
 
 <div class="publications">
 
-{%- for section in ["JOUR","ARXIV"] %}
-  <a id="{{section}}"></a>
-  <p class="bibtitle">{{section}}</p>
+{%- for section in pages.sections %}
+  <a id="{{section.text}}"></a>
+  <p class="bibtitle">{{section.text}}</p>
   {%- for y in page.years %}
 
     {%- comment -%}  Count bibliography in actual section and year {%- endcomment -%}
     {%- capture citecount -%}
-    {%- bibliography_count -f papers -q @*[TY={{section}},year={{y}}]* -%}
+    {%- bibliography_count -f papers -q @*[TY={{section.type}},year={{y}}]* -%}
     {%- endcapture -%}
 
     {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
     {%- if citecount !="0" %}
 
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[TY={{section}},year={{y}}]* %}
+      {% bibliography -f papers -q @*[TY={{section.type}},year={{y}}]* %}
 
     {%- endif -%}
 
