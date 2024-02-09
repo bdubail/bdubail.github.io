@@ -32,7 +32,7 @@ nav_order: 1
     {%- if citecount !="0" %}
 
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[TY={{section},year={{y}}]* %}
+      {% bibliography -f papers -q @*[TY={{section}},year={{y}}]* %}
 
     {%- endif -%}
 
