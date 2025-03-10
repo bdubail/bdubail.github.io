@@ -28,7 +28,7 @@ Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 **Research Interests:** probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs, reinforcement learning
 
 ## Contact: 
-bastien.dubail [at] inria.fr
+bastdub [at] kth.se
 
 Office 709<br>
 KTH<br>
