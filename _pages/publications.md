@@ -44,7 +44,6 @@ nav_order: 1
     {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
     {%- if citecount !="0" %}
 
-      <h2 class="year">{{y}}</h2>
     {% bibliography -f papers -q @*[year={{y}}]* %}
 
     {%- endif -%}
