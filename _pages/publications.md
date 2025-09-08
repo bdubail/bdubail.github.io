@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-years: [2022,2024]
+years: [2022,2024,2025]
 nav: true
 nav_order: 1
 ---
@@ -22,8 +22,7 @@ nav_order: 1
 
     {%- comment -%} If exist bibliography in actual section and year, print {%- endcomment -%}
     {%- if citecount !="0" %}
-
-      <h2 class="year">{{y}}</h2>
+    
     {% bibliography -f preprints -q @*[year={{y}}]* %}
 
     {%- endif -%}
