@@ -12,7 +12,7 @@ profile:
     <p> Postdoc in Mathematics </p>
     <p> <a href="https://www.kth.se/is/dcs">KTH</a>, Stockholm </p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -26,6 +26,8 @@ My research focuses on mixing times of Markov chains, notably on the so-called c
 Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 
 **Research Interests:** probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs, reinforcement learning
+
+{% include news.html %}
 
 ## Contact: 
 bastdub [at] kth.se
