@@ -27,7 +27,7 @@ Here is a short academic [CV](/assets/pdf/CV_english.pdf).
 
 **Research Interests:** probability theory, mixing times of Markov chains, cutoff phenomenon, random walks on groups, random graphs, reinforcement learning
 
-{% include news.html %}
+<!--NEWS-->
 
 ## Contact: 
 bastdub [at] kth.se
