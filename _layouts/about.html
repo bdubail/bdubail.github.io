@@ -36,9 +36,17 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+          {% assign split_content = content | split: "<!--NEWS-->" %}
+
+            <div class="clearfix">
+              {{ split_content[0] }}
+            </div>
+            
+            {% include news.html %}
+            
+            <div class="clearfix">
+              {{ split_content[1] }}
+            </div>
 
           {% if page.news -%}
           <!-- News -->
